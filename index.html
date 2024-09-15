@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Datakommunikation och webbadresser</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Frågor 1</a></li>
+
+                <li><a href="index2.html">Frågor 2</a></li>
+
+                <li><a href="index3.html">Frågor 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="text1">
+        <h2>1. Vilken roll spelar DNS servern när en användare navigerar till en webbsida.</h2>
+
+        <p>Svar: "DNS" vilket står för Domain Name System är som en telefonnummers bok, när man söker upp en webbsida så kommer DNS att lösa namnet till ett nummer vilket är ett ip-adress som motsvarar den sidan som man sökt på, man kan till och med bara söka upp sidans ip adress så kommer man till sidan</p>
+    </section>
+    <br>
+        
+    <section class="text2">
+        <h2>2. Beskriv kortfattat de steg som klienten och servern tillsammans går igenom när en webbsida bestående av filerna index.html, style.css och example.jpg öppnas.</h2>
+
+         
+            <ul id="list2">
+                <li>
+              <span>Svar:</span> </li>
+              <li>Steg 1: Webbläsaren skickar signaler till DNS server för att få ett unikt ip-adress till servern.
+            </li>
+            <br>
+
+              <li>Steg 2: Webbläsaren svarar tillbaka och ger oss en IP-adress för att komma åt servern via http eller https som man ser längst upp i sidan.</li>
+              <br>
+
+              <li>Steg 3: Webbläsaren skickar en förfrågan till servern för att kunna hämta index.html.</li>
+              <br>
+
+              <li>Steg 4: När dokumentet ser att man har kopplat och skrivit en länk till style.css så skickar den en ny förfrågan till servern för att hämta css-filen.
+            </li>
+            <br>
+
+            <li>Steg 5: Servern svarar tillbaka med innehållet css, då är html och css kopplat tillsammans.</li>
+            <br>
+
+            <li>Steg 6: Samma gäller för example.jpg, klienten skickar en ny förfråga till servern från html för att hämta bilden så att den syns när man kommer åt sidan.</li>
+            </ul>
+        
+    </section>
+    <br>
+
+    <section class="text3">
+    <h2>3.Beskriv de delar som följande url består av:
+        <span>https://medieteknik.lnu.se:443/wt1/index.html#intro</span>-ta upp alla delar som åtskiljs av /, : och #.
+        </h2>
+        <ul id="list3">
+            <li>https-Det står för “Hyper Transfer Protocol Secure”, det är protokoll som används för kommunicera över webben och är en säkrare version jämfört med http. Https skyddar sidan så att ingen annan kan komma åt privata saker som personen skriver.
+            </li>
+            <br>
+        
+        <li>medieteknik.lnu.se-Namnet som sidan döptes till.</p></li>
+        <li>443-Portnummer som ansluter till servern, 443 är en standard portnummer för https.</li>
+            <br>
+        <li>Wt1-Sökvägen till en specifik mapp/fil till servern.</p></li>
+        <li>Index.html-Filnamnet/typen på webbsidan.</li>
+            <br>
+        <li>#intro-Den delen man vill komma åt i sidan, det är mer specifikt vart i sidan.</li>
+    </ul>
+
+    </section>
+    <h3>Bilderna!</h3>
+    <br>
+    <div class="image-container">
+    <img src="pixlr-image-generator-89193260-9883-4125-9d93-d4db329e850d.png" alt="" height="400" width="400">
+    <img src="2pixlr-image-generator-c4c12ae2-6adc-41b0-b419-cec70c7dd8b8.png" alt="" height="400" width="400">
+    <img src="pixlr-image-generator-e888e9f8-ce87-4539-9597-13f2eccef000f0.png" alt="" height="400" width="400">
+</div>  
+<br>
+<br>
+<br>
+<br> 
+<ul></ul>
+    </main>
+    <footer>
+        <div id="copy" title="copyright">
+      <p>&lt;Copyright &copy;2024 Designed by Mouaz Jamal&gt;</p>
+    </div>
+    </footer>
+
+</body>
+
+
+</html>
